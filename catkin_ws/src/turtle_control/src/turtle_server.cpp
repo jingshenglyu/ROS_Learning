@@ -46,9 +46,10 @@ int main(int argc, char **argv)
 
 	/* Create a Publisher and push to the topic"/turtle1/cmd_vel",data-type 
      * is geometry_msgs::Twist and the limit is 10. */
-	std::string turtle_topic;
+	std::string turtle_control_name, turtle_topic;
 	std::cout << "Please input a turtle's name, which you want to control: " << std::endl;
-	std::cin >> turtle_topic;
+	std::cin >> turtle_control_name;
+	turtle_topic = "/" + turtle_control_name + "/cmd_vel";
 	turtle_vel_pub = n.advertise<geometry_msgs::Twist>(turtle_topic, 10);
 
 	// Return this information
