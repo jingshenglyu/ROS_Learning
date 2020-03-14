@@ -31,9 +31,11 @@ int main(int argc, char** argv)
 
     // Random seed
     unsigned seed;
-    std::cout << "Please input a rand number: ";
+    std::cout << "Please input a rand number seed to create a new turtle's postion : ";
     std::cin >> seed;
     srand(seed);
+
+    // Create a new turtle's position. The range is [1, 10]
     pose_x = rand() % 10 + 1;
     pose_y = rand() % 10 + 1;
 
@@ -43,7 +45,7 @@ int main(int argc, char** argv)
 
     // Create a name of the new turtle
     std::string name;
-    std::cout << "Pleas input a turtle name: ";
+    std::cout << "Pleas input a new turtle's name: ";
     std::cin >> name;
 	srv.request.name = name;
 

@@ -11,6 +11,8 @@ iostream
 -
 ros/ros.h
 -
+string
+-
 geometry_msgs/Twist.h
 -
 std_srvs/Trigger.h

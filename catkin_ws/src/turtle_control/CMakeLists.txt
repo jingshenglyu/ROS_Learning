@@ -158,11 +158,9 @@ include_directories(
 
 add_executable(turtle_server src/turtle_server.cpp)
 target_link_libraries(turtle_server ${catkin_LIBRARIES})
-#add_dependencies(turtle_server ${PROJECT_NAME}_gencpp)
 
 add_executable(turtle_client src/turtle_client.cpp)
 target_link_libraries(turtle_client ${catkin_LIBRARIES})
-#add_dependencies(turtle_client ${PROJECT_NAME}_gencpp)
 
 #############
 ## Install ##

@@ -6,6 +6,8 @@
 // Include the head files
 #include <iostream>
 #include <ros/ros.h>
+#include <string>
+//#include <map>
 #include <geometry_msgs/Twist.h>
 #include <std_srvs/Trigger.h>
 
@@ -44,13 +46,16 @@ int main(int argc, char **argv)
 
 	/* Create a Publisher and push to the topic"/turtle1/cmd_vel",data-type 
      * is geometry_msgs::Twist and the limit is 10. */
-	turtle_vel_pub = n.advertise<geometry_msgs::Twist>("/turtle1/cmd_vel", 10);
+	std::string turtle_topic;
+	std::cout << "Please input a turtle's name, which you want to control: " << std::endl;
+	std::cin >> turtle_topic;
+	turtle_vel_pub = n.advertise<geometry_msgs::Twist>(turtle_topic, 10);
 
 	// Return this information
 	ROS_INFO("Ready to receive turtle server.");
 
 	// Set up the rate: 10Hz
-	ros::Rate loop_rate(100);
+	ros::Rate loop_rate(10);
 
 	while (ros::ok())
 	{
@@ -62,17 +67,21 @@ int main(int argc, char **argv)
 		{
 			// Publish the Twist messages
 			geometry_msgs::Twist vel_msg;
-
 			// Publish the velocity
-			int turtle_velocity;
-			std::cout << "Please input a turtle's velocity: ";
-			std::cin >> turtle_velocity;
-			vel_msg.linear.x = turtle_velocity;
+			double turtle_x_linear_vel, turtle_z_angular_vel;
+			std::cout << "Please input a turtle's x_linear velocity: " << std::endl;;
+			std::cin >> turtle_x_linear_vel;
+			std::cout << "Please input a turtle's z_angular velocity: " << std::endl;
+			std::cin >> turtle_z_angular_vel;
+			vel_msg.linear.x = turtle_x_linear_vel;
 
-			vel_msg.angular.z = 0.2;
-			turtle_vel_pub.publish(vel_msg);
+			vel_msg.angular.z = turtle_z_angular_vel;
+			while (ros::ok())
+			{
+				turtle_vel_pub.publish(vel_msg);
+			}
 		}
-		
+
 		// Loop sleep
 		loop_rate.sleep();
 	}
