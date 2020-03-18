@@ -62,6 +62,13 @@
 /home/jingsheng/ROS_Learning/catkin_ws/build/HW_Chapter3/CMakeFiles/std_srvs_generate_messages_lisp.dir
 /home/jingsheng/ROS_Learning/catkin_ws/build/HW_Chapter3/CMakeFiles/roscpp_generate_messages_nodejs.dir
 /home/jingsheng/ROS_Learning/catkin_ws/build/HW_Chapter3/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/jingsheng/ROS_Learning/catkin_ws/build/learning_launch/CMakeFiles/install/strip.dir
+/home/jingsheng/ROS_Learning/catkin_ws/build/learning_launch/CMakeFiles/edit_cache.dir
+/home/jingsheng/ROS_Learning/catkin_ws/build/learning_launch/CMakeFiles/list_install_components.dir
+/home/jingsheng/ROS_Learning/catkin_ws/build/learning_launch/CMakeFiles/test.dir
+/home/jingsheng/ROS_Learning/catkin_ws/build/learning_launch/CMakeFiles/install/local.dir
+/home/jingsheng/ROS_Learning/catkin_ws/build/learning_launch/CMakeFiles/rebuild_cache.dir
+/home/jingsheng/ROS_Learning/catkin_ws/build/learning_launch/CMakeFiles/install.dir
 /home/jingsheng/ROS_Learning/catkin_ws/build/turtle_control/CMakeFiles/install.dir
 /home/jingsheng/ROS_Learning/catkin_ws/build/turtle_control/CMakeFiles/install/strip.dir
 /home/jingsheng/ROS_Learning/catkin_ws/build/turtle_control/CMakeFiles/turtle_client.dir

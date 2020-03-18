@@ -1082,6 +1082,24 @@ clean: HW_Chapter3/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory learning_launch
+
+# Convenience name for "all" pass in the directory.
+learning_launch/all:
+
+.PHONY : learning_launch/all
+
+# Convenience name for "clean" pass in the directory.
+learning_launch/clean:
+
+.PHONY : learning_launch/clean
+
+# Convenience name for "preinstall" pass in the directory.
+learning_launch/preinstall:
+
+.PHONY : learning_launch/preinstall
+
+#=============================================================================
 # Directory level rules for directory turtle_control
 
 # Convenience name for "all" pass in the directory.

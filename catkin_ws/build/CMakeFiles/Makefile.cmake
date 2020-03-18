@@ -15,6 +15,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/order_packages.cmake"
+  "learning_launch/catkin_generated/ordered_paths.cmake"
+  "learning_launch/catkin_generated/package.cmake"
   "turtle_control/catkin_generated/ordered_paths.cmake"
   "turtle_control/catkin_generated/package.cmake"
   "turtle_control/catkin_generated/turtle_control-msg-extras.cmake.develspace.in"
@@ -24,6 +26,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/jingsheng/ROS_Learning/catkin_ws/src/CMakeLists.txt"
   "/home/jingsheng/ROS_Learning/catkin_ws/src/HW_Chapter3/CMakeLists.txt"
   "/home/jingsheng/ROS_Learning/catkin_ws/src/HW_Chapter3/package.xml"
+  "/home/jingsheng/ROS_Learning/catkin_ws/src/learning_launch/CMakeLists.txt"
+  "/home/jingsheng/ROS_Learning/catkin_ws/src/learning_launch/package.xml"
   "/home/jingsheng/ROS_Learning/catkin_ws/src/turtle_control/CMakeLists.txt"
   "/home/jingsheng/ROS_Learning/catkin_ws/src/turtle_control/package.xml"
   "/opt/ros/melodic/share/catkin/cmake/../package.xml"
@@ -218,6 +222,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HW_Chapter3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "learning_launch/CMakeFiles/CMakeDirectoryInformation.cmake"
   "turtle_control/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
