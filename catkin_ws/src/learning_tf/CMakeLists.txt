@@ -152,6 +152,11 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
+add_executable(tf_broadcaster src/broadcaster.cpp)
+add_executable(tf_listener src/listener.cpp)
+target_link_libraries(tf_broadcaster ${catkin_LIBRARIES})
+target_link_libraries(tf_listener ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
