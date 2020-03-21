@@ -1,14 +1,5 @@
 <launch>
-	<!-- 启动turtlesim节点 -->
-	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
-
-	<!-- 第三章 3.3: 综合应用 -->
-
-	<!-- 启动turtle_client.cpp节点,产生随机新海龟-->
-    <!-- <node pkg="turtle_control" type="turtle_client" name="turtle1_client" output="screen"/> -->
-	<!--  启动turtle_control功能包下的turtle_client.cpp节点，
-	名字重新命名为turtle_client，名称与rosnode list应一一对应	 -->
-
+	
 	<!-- 启动turtle_server.cpp节点，控制海龟的启动和停止，改变海速度 -->
 	<node pkg="turtle_control" type="turtle_server" name="turtle_server" output="screen"/>
 
