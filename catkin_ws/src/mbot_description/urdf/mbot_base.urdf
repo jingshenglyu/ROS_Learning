@@ -1,0 +1,33 @@
+<?xml version = "1.0" ?> 
+<!-- 版本描述 -->
+
+<robot name="mbot">
+<!-- 创建一个机器人，</xxx>表示标签的比闭合 -->
+
+    <link name="base_link">
+    <!-- 创建link标签，每个Link是一个坐标系 -->
+
+        <visual>
+        <!-- 机器人在rviz的可视化部分 -->
+
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <!-- 描述机器人的平移旋转运动 -->
+
+            <geometry>
+            <!-- 描述机器人的外形 -->
+
+                <cylinder length="0.16" radius="0.20" />
+                <!-- 机器人外形为圆柱体 -->
+            </geometry>
+
+            <material name="yellow">
+                <color rgba="1 0.4 0 1">
+                <!-- 名字无参数意义，rgb[0,1]值决定颜色，a表示透明度 -->
+                
+            </material>
+
+        </visual>
+
+    </link>
+
+</robot>
