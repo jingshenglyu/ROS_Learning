@@ -51,7 +51,7 @@
         </visual>
     </link>
 
-    <!-- <joint name="front_caster_joint" type="continuous">
+    <joint name="front_caster_joint" type="continuous">
         <origin xyz="0.18 0 -0.095" rpy="0 0 0"/>
         <parent link="base_link"/>
         <child link="front_caster_link"/>
@@ -87,6 +87,22 @@
                 <color rgba="0 0 0 0.95"/>
             </material>
         </visual>
-    </link> -->
+    </link>
+
+    <link name="laser_link">
+		<visual>
+			<origin xyz=" 0 0 0 " rpy="0 0 0" />
+			<geometry>
+				<cylinder length="0.05" radius="0.05"/>
+			</geometry>
+			<material name="black"/>
+		</visual>
+    </link>
+
+    <joint name="laser_joint" type="fixed">
+        <origin xyz="0 0 0.105" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="laser_link"/>
+    </joint>
 
 </robot>
