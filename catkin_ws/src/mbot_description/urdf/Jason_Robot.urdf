@@ -91,4 +91,42 @@
         </visual>
     </link>
 
+    <!-- front castor and joint-->
+    <!-- For joint type, we can use "continuous" to recognize this joint.
+    By "fixed" type this joint can't be recognized. -->
+    <joint name="front_castor_joint" type="continuous">
+        <origin xyz="0.1135 0 -0.0165" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="front_castor_link" />
+        <axis xyz="0 1 0" />
+    </joint>
+
+    <link name="front_castor_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.5707 0 0" />
+            <geometry>
+                <sphere radius="0.0165" />
+            </geometry>
+            <material name="black">
+                <color rgba="0 0 0 1" />
+            </material>
+        </visual>
+    </link>
+
+    <!-- kinect  -->
+    <link name="kinect_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 1.5708"/>
+            <geometry>
+                <mesh filename="package://mbot_description/meshes/kinect.dae" />
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="kinect_joint" type="fixed">
+        <origin xyz="0.08 0 0.038" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="kinect_link"/>
+    </joint>
+
 </robot>
