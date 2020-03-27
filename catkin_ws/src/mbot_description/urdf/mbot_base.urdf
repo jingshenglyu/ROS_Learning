@@ -51,7 +51,7 @@
         </visual>
     </link>
 
-    <!-- <joint name="front_caster_joint" type="continuous">
+    <joint name="front_caster_joint" type="continuous">
         <origin xyz="0.18 0 -0.095" rpy="0 0 0"/>
         <parent link="base_link"/>
         <child link="front_caster_link"/>
@@ -87,6 +87,6 @@
                 <color rgba="0 0 0 0.95"/>
             </material>
         </visual>
-    </link> -->
+    </link>
 
 </robot>
