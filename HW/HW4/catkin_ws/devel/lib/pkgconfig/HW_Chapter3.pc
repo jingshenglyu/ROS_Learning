@@ -1,8 +1,0 @@
-prefix=/home/jingsheng/ROS_Learning/catkin_ws/devel
-
-Name: HW_Chapter3
-Description: Description of HW_Chapter3
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,7 +1,0 @@
-string tur_name
-float64  pose_x
-float64  pose_y
-float64  tur_theta
-
----
-string result
