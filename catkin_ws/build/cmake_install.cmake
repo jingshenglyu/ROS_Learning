@@ -131,13 +131,15 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jingsheng/ROS_Learning/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/jingsheng/ROS_Learning/catkin_ws/build/HW_Chapter3/cmake_install.cmake")
   include("/home/jingsheng/ROS_Learning/catkin_ws/build/learning_launch/cmake_install.cmake")
-  include("/home/jingsheng/ROS_Learning/catkin_ws/build/mbot_teleop/cmake_install.cmake")
+  include("/home/jingsheng/ROS_Learning/catkin_ws/build/mrobot_teleop/cmake_install.cmake")
   include("/home/jingsheng/ROS_Learning/catkin_ws/build/learning_tf/cmake_install.cmake")
   include("/home/jingsheng/ROS_Learning/catkin_ws/build/turtle_control/cmake_install.cmake")
   include("/home/jingsheng/ROS_Learning/catkin_ws/build/mbot_gazebo/cmake_install.cmake")
+  include("/home/jingsheng/ROS_Learning/catkin_ws/build/mrobot_gazebo/cmake_install.cmake")
   include("/home/jingsheng/ROS_Learning/catkin_ws/build/mbot_description/cmake_install.cmake")
+  include("/home/jingsheng/ROS_Learning/catkin_ws/build/mbot_teleop/cmake_install.cmake")
+  include("/home/jingsheng/ROS_Learning/catkin_ws/build/mrobot_description/cmake_install.cmake")
 
 endif()
 

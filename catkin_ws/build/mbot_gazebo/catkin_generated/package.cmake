@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "mbot_gazebo")
 set(mbot_gazebo_VERSION "0.0.0")
-set(mbot_gazebo_MAINTAINER "hcx <hcx@todo.todo>")
+set(mbot_gazebo_MAINTAINER "jingsheng <jingsheng@todo.todo>")
 set(mbot_gazebo_PACKAGE_FORMAT "2")
 set(mbot_gazebo_BUILD_DEPENDS "gazebo_plugins" "gazebo_ros" "gazebo_ros_control" "roscpp" "rospy")
 set(mbot_gazebo_BUILD_EXPORT_DEPENDS "gazebo_plugins" "gazebo_ros" "gazebo_ros_control" "roscpp" "rospy")

@@ -1,2 +1,2 @@
-HW_Chapter3:learning_launch:learning_tf:mbot_description:mbot_gazebo:mbot_teleop:turtle_control
+learning_launch:learning_tf:mbot_description:mbot_gazebo:mbot_teleop:mrobot_description:mrobot_gazebo:mrobot_teleop:turtle_control
 -DCATKIN_DEVEL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws/install -G Unix Makefiles

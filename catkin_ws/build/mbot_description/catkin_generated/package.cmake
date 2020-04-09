@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "mbot_description")
 set(mbot_description_VERSION "0.0.0")
-set(mbot_description_MAINTAINER "hcx <hcx@todo.todo>")
+set(mbot_description_MAINTAINER "jingsheng <jingsheng@todo.todo>")
 set(mbot_description_PACKAGE_FORMAT "2")
 set(mbot_description_BUILD_DEPENDS "urdf" "xacro")
 set(mbot_description_BUILD_EXPORT_DEPENDS "urdf" "xacro")
