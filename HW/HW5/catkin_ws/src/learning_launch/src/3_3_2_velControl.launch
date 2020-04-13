@@ -1,0 +1,6 @@
+<launch>
+	
+	<!-- 启动turtle_server.cpp节点，控制海龟的启动和停止，改变海速度 -->
+	<node pkg="turtle_control" type="turtle_server" name="turtle_server" output="screen"/>
+
+</launch>
