@@ -1,0 +1,8 @@
+prefix=/home/jingsheng/ROS_Learning/catkin_ws/devel
+
+Name: learning_pub_sub
+Description: Description of learning_pub_sub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
