@@ -1,0 +1,6 @@
+set(tensorflow_object_detector_SETUP_PY_VERSION "0.0.0")
+set(tensorflow_object_detector_SETUP_PY_SCRIPTS "")
+set(tensorflow_object_detector_SETUP_PY_PACKAGES "object_detection")
+set(tensorflow_object_detector_SETUP_PY_PACKAGE_DIRS "src/object_detection")
+set(tensorflow_object_detector_SETUP_PY_MODULES "")
+set(tensorflow_object_detector_SETUP_PY_MODULE_DIRS "")
