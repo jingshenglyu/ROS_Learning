@@ -28,6 +28,7 @@
         <color rgba="0.75 0.75 0.75 1"/>
     </material>
     
+    
     <!-- Macro for inertia matrix -->
     <xacro:macro name="sphere_inertial_matrix" params="m r">
         <inertial>
