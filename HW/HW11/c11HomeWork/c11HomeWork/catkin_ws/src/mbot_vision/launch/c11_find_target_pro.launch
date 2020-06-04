@@ -1,0 +1,8 @@
+<launch>
+
+	<node name="c11_exploring_maze_pro" type="c11_exploring_maze_pro.py" pkg="mbot_navigation" output="screen" />
+	<node name="object_detect" type="c11_object_detect.py" pkg="mbot_vision" output="screen"/>
+	<node name="move_to_target" type="move_to_target" pkg="mbot_vision" output="screen" />
+	<node name="tts_subscribe" type="tts_subscribe" pkg="robot_voice" output="screen" />
+
+</launch>

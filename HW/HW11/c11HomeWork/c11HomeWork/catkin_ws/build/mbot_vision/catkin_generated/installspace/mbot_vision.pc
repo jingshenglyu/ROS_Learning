@@ -1,0 +1,8 @@
+prefix=/home/lum/catkin_ws/install
+
+Name: mbot_vision
+Description: Description of mbot_vision
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

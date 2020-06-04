@@ -1,0 +1,2 @@
+mbot_description:mbot_gazebo:mbot_navigation:mbot_teleop:mbot_vision:robot_voice
+-DCATKIN_DEVEL_PREFIX=/home/lum/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lum/catkin_ws/install -G Unix Makefiles
