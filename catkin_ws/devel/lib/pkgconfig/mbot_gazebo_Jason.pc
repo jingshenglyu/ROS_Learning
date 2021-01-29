@@ -1,8 +1,0 @@
-prefix=/home/jingsheng/ROS_Learning/catkin_ws/devel
-
-Name: mbot_gazebo_Jason
-Description: Description of mbot_gazebo_Jason
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
