@@ -1,0 +1,8 @@
+prefix=/home/jingsheng/ROS_Learning/catkin_ws_C3/install
+
+Name: PubAndSub
+Description: Description of PubAndSub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

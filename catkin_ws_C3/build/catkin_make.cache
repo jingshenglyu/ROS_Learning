@@ -1,0 +1,2 @@
+pub_and_sub:turtle_control
+-DCATKIN_DEVEL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws_C3/devel -DCMAKE_INSTALL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws_C3/install -G Unix Makefiles
