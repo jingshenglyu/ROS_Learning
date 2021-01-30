@@ -1,0 +1,2 @@
+HW_Chapter3:learning_launch:learning_tf:turtle_control
+-DCATKIN_DEVEL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws_C4/devel -DCMAKE_INSTALL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws_C4/install -G Unix Makefiles

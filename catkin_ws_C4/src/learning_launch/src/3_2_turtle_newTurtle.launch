@@ -1,0 +1,12 @@
+<launch>
+	<!-- 启动turtlesim节点 -->
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+
+	<!-- 第三章 3.2: 启动newTurtle,产生新海龟 -->
+
+	<!-- 启动publisher节点 -->
+    <node pkg="HW_Chapter3" type="newTurtle.py" name="newTurtle" output="screen"/>
+	<!--  启动HW_Chapter3功能包下的newTurtle.py节点，
+	名字重新命名为newTurtle，产生一只新海龟	-->
+
+</launch>
