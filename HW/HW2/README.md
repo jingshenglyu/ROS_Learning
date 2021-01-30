@@ -2,7 +2,7 @@
  * @Author: Jingsheng Lyu
  * @Date: 2021-01-29 23:04:01
  * @LastEditors: Jingsheng Lyu
- * @LastEditTime: 2021-01-30 00:05:31
+ * @LastEditTime: 2021-01-30 09:08:22
  * @FilePath: /ROS_Learning/HW/HW2/README.md
  * @Github: https://github.com/jingshenglyu
  * @Web: https://jingshenglyu.github.io/
@@ -107,3 +107,16 @@
         ```bash
         rosrun turtle_control turtle_server
         ```
+
+5. Control the turtle using terminal
+
+    rosservice
+
+    ```bash
+    rosservice call /turtle_server "{}"
+    ```
+
+    input the linear velocity of x-axis: e.g. 0.5
+    input the angular velocity of z-axis: e.g. 0.5
+
+    Stop the control with `Ctrl + C`.
