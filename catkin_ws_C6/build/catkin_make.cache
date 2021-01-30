@@ -1,0 +1,2 @@
+mbot_gazebo:mbot_teleop
+-DCATKIN_DEVEL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws_C6/devel -DCMAKE_INSTALL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws_C6/install -G Unix Makefiles
