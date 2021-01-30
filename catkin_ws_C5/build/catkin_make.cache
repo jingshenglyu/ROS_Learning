@@ -1,0 +1,2 @@
+mbot_description
+-DCATKIN_DEVEL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws_C5/devel -DCMAKE_INSTALL_PREFIX=/home/jingsheng/ROS_Learning/catkin_ws_C5/install -G Unix Makefiles
