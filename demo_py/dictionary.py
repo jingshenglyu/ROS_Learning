@@ -1,3 +1,14 @@
+'''
+Author: Jingsheng Lyu
+Date: 2021-01-31 22:58:28
+LastEditors: Jingsheng Lyu
+LastEditTime: 2021-01-31 22:59:08
+FilePath: /ROS_Learning/demo_py/dictionary.py
+Github: https://github.com/jingshenglyu
+Web: https://jingshenglyu.github.io/
+E-Mail: jingshenglyu@gmail.com
+'''
+
 # Create dict
 person = {
     'first_name': 'John',
